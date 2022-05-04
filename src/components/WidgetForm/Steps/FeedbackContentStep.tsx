@@ -1,4 +1,4 @@
-import { ArrowLeft } from "phosphor-react";
+import { ArrowLeft, Camera } from "phosphor-react";
 import { FeedbackType, feedbacckTypes } from "..";
 import { CloseButton } from "../../CloseButton";
 
@@ -36,6 +36,9 @@ export function FeedbackContentStep({ feedbackType, onFeedbackRestartRequest }: 
       </form>
 
       <footer className="flex gap-2 m-2 w-full">
+        <button type="button" className="p-2 bg-zinc-700 rounded border-transparent hover:bg-zinc-600 transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500">
+          <Camera className="w-6 h-6" />
+        </button>
         <button
           type="submit"
           // disabled={comment.length === 0}
