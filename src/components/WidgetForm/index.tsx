@@ -61,7 +61,7 @@ export function WidgetForm() {
         </>
       )}
       <footer className="text-xs text-neutral-400">
-        Feito com ♥ pela <a href="https://rocketseat.com.br" className="underline underline-offset-2">Rocketseat</a>
+        powered by <a href="https://esbnet.tec.br/" className="underline underline-offset-2">@esbnet</a> / Rocketseat
       </footer>
     </div>
   )
